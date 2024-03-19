@@ -1,0 +1,52 @@
+
+/*
+    Testes UARTS (red USB-2-TTL, only using RXD, TXD -- black USB-2-TTL, only using RX1, TX0):
+    - Asc_3_Usb (USB)   << WORKING via USB (choose COM-port of Shieldbuddy: COM4)
+    - Asc_0             << see below (choose COM-port of USB-2-TTL: COM3)   USB-2-TTL.RX <--> Shieldbuddy.TX
+    - Asc_1             << see below (choose COM-port of USB-2-TTL: COM3)   USB-2-TTL.RX <--> Shieldbuddy.TX
+    - Asc_2             << see below (choose COM-port of USB-2-TTL: COM3)   USB-2-TTL.RX <--> Shieldbuddy.TX
+    - Asc_3             << see below (choose COM-port of USB-2-TTL: COM3)   USB-2-TTL.RX <--> Shieldbuddy.TX
+
+    note:
+    - USB-2-TTL <-> COM3
+    - USB       <-> COM4
+
+    driver:
+        NOT
+            https://ftdichip.com/drivers/vcp-drivers/
+        BUT THIS
+            https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads
+                => download
+                => unzip
+                => instructions are in 'CP210x_Universal_Windows_Driver_ReleaseNotes.txt'
+                    - via Windows update (after plugging in device) or
+                    - manually
+                        => right click on the file 'silabser.inf' and select Install
+                        => follow the instructions
+
+
+*/
+
+// SB: TX1 16 <--> red uart-2-ttl RXD (yellow), black uart-2-ttl RX1 (orange)   << WORKS
+const Asclin_Uart_Config Asc_2 = { // use '&MODULE_ASCLIN2'
+    .rx = &IfxAsclin2_RXE_P33_8_IN,
+    .tx = &IfxAsclin2_TX_P33_9_OUT
+};
+
+// SB: TX0 14 <--> red uart-2-ttl RXD (yellow), black uart-2-ttl RX1 (orange)   << WORKS
+const Asclin_Uart_Config Asc_1 = { // use '&MODULE_ASCLIN1'
+    .rx = &IfxAsclin1_RXA_P15_1_IN,
+    .tx = &IfxAsclin1_TX_P15_0_OUT
+};
+
+// SB: TX2 18 <--> red uart-2-ttl RXD (yellow), black uart-2-ttl RX1 (orange)   << WORKS
+const Asclin_Uart_Config Asc_3 = { // use '&MODULE_ASCLIN3'
+        .rx = &IfxAsclin3_RXC_P20_3_IN,
+        .tx = &IfxAsclin3_TX_P20_0_OUT
+};
+
+// SB: T 1 <--> red uart-2-ttl RXD (yellow), black uart-2-ttl RX1 (orange)      << WORKS
+const Asclin_Uart_Config Asc_0 = { // use '&MODULE_ASCLIN0'
+        .rx = &IfxAsclin0_RXB_P15_3_IN,
+        .tx = &IfxAsclin0_TX_P15_2_OUT
+};

@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.1191907587">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.1191907587" moduleId="org.eclipse.cdt.core.settings" name="debug">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.1191907587" name="debug" parent="com.rt.hightec.buildsystem.tricore.new.configuration.excutable">
+                    					
+                    <folderInfo id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.1191907587." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable.697332387" name="TriCore Toolchain" superClass="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable">
+                            							
+                            <targetPlatform archList="TriCore" binaryParser="org.eclipse.cdt.core.ELF" id="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform.136908129" isAbstract="false" superClass="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/Bifaces_uart}/debug" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder.547917234" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder"/>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.compiler.cpp.2063156128" name="TriCore C++ Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.cpp">
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.1781420626" name="Debug Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.3" valueType="enumerated"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization.685958431" name="Optimization Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.code.optimization.none" valueType="enumerated"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnocommon.6942753" name="Issue an error if same variable is declared twice (-fno-common)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnocommon" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums.1759986540" name="Do not allocate to an enum type only as many bytes as it needs (-fno-short-enums)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.output.pipe.350553097" name="Do not generate temporary assembler files (-pipe)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.output.pipe" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.FShortDouble.23933883" name="Treat double as float (-fshort-double)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.FShortDouble" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.mversioninfo.182165962" name="Generate version info (-mversion-info)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.mversioninfo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wall.2051853624" name="All Warnings (-Wall)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wall" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wextra.1664443763" name="Enable extra warning flags that are not enabled by -Wall. (-Wextra)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wextra" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.cast.align.91001421" name="Warn whenever a pointer is cast such that the required alignment of the target is increased. (-Wcast-align)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.cast.align" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.unsignedbitfields.1327183768" name="Bit-fields are used as unsigned (-funsigned-bitfields)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.unsignedbitfields" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.ffuncsec.928086348" name="Generate a section for each function (-ffunction-sections)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.ffuncsec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.fdatasec.131170695" name="Generate a section for each data object (-fdata-sections)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.fdatasec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.miscellaneous.options.222447467" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="-fomit-frame-pointer"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-ffreestanding"/>
+                                    								
+                                </option>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.compiler.c.1218265118" name="TriCore C Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.c">
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.14937560" name="Debug Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.3" valueType="enumerated"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization.1229588884" name="Optimization Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.code.optimization.none" valueType="enumerated"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnocommon.1607667911" name="Issue an error if same variable is declared twice (-fno-common)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnocommon" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums.2046580044" name="Do not allocate to an enum type only as many bytes as it needs (-fno-short-enums)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.output.pipe.1552538161" name="Do not generate temporary assembler files (-pipe)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.output.pipe" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.FShortDouble.840106302" name="Treat double as float (-fshort-double)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.FShortDouble" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.mversioninfo.1164311407" name="Generate version info (-mversion-info)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.mversioninfo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wall.1127578709" name="All Warnings (-Wall)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wall" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wextra.1499265914" name="Enable extra warning flags that are not enabled by -Wall. (-Wextra)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wextra" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.cast.align.351273663" name="Warn whenever a pointer is cast such that the required alignment of the target is increased. (-Wcast-align)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.cast.align" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.unsignedbitfields.1188280611" name="Bit-fields are used as unsigned (-funsigned-bitfields)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.unsignedbitfields" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.ffuncsec.1807029353" name="Generate a section for each function (-ffunction-sections)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.ffuncsec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.fdatasec.1133490776" name="Generate a section for each data object (-fdata-sections)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.fdatasec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.miscellaneous.options.500541036" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="-fomit-frame-pointer"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-ffreestanding"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.1598825519" name="Compiler Input (C)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.assembler.1720507817" name="TriCore Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler">
+                                								
+                                <option id="com.rt.hightec.buildsystem.tricore.new.assembler.optimization.insn.726941965" name="Exclusively emit 32-bit opcodes insn" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.optimization.insn" useByScannerDiscovery="false" value="com.rt.hightec.buildsystem.tricore.new.assembler.optimization.insn.preferred" valueType="enumerated"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.debug.option.1939158446" name="Debug Mode" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.debug.option" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.debug.option.gdwarf2" valueType="enumerated"/>
+                                								
+                                <inputType id="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype.681959524" name="Assembler Input NO GUI" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.assembler.gtm.2068685281" name="TriCore GTM Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.gtm">
+                                								
+                                <inputType id="gtm.input.78151363" name="Assembler Input (mcs)" superClass="gtm.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.linker.c.590987583" name="TriCore C Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.c">
+                                								
+                                <option id="com.rt.hightec.buildsystem.tricore.linker.c.Optimization.rmUnrefSec.1705932995" name="Remove unreferenced sections (-Wl,--gc-sections)" superClass="com.rt.hightec.buildsystem.tricore.linker.c.Optimization.rmUnrefSec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="abstract.tool.linker.warnings.no.warn.flags.717528791" name="Do not warn about incompatible section flags (-Wl,--no-warn-flags)" superClass="abstract.tool.linker.warnings.no.warn.flags" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.outputopt.crossref.1263225411" name="Include cross references info (-Wl,--cref)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.outputopt.crossref" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.buildsystem.tricore.new.linker.c.ext.map.file.2082545159" name="Generate extended map file (-Wl,--extmap=)" superClass="com.rt.hightec.buildsystem.tricore.new.linker.c.ext.map.file" useByScannerDiscovery="false" value="a" valueType="string"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan.1899155500" name="Warn if mapping between an input section and an output section is missing (-Wl,--warn-orphan)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.517650705" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,-n"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input.2049026537" name="Abstract Linker Input NO GUI" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(ASM)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.linker.cpp.602157720" name="TriCore C++ Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.cpp">
+                                								
+                                <option id="com.rt.hightec.buildsystem.tricore.linker.cpp.Optimization.rmUnrefSec.693114574" name="Remove unreferenced sections (-Wl,--gc-sections)" superClass="com.rt.hightec.buildsystem.tricore.linker.cpp.Optimization.rmUnrefSec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="abstract.tool.linker.warnings.no.warn.flags.18677455" name="Do not warn about incompatible section flags (-Wl,--no-warn-flags)" superClass="abstract.tool.linker.warnings.no.warn.flags" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.outputopt.crossref.878155570" name="Include cross references info (-Wl,--cref)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.outputopt.crossref" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.buildsystem.tricore.new.linker.cpp.ext.map.file.2090306089" name="Generate extended map file (-Wl,--extmap=)" superClass="com.rt.hightec.buildsystem.tricore.new.linker.cpp.ext.map.file" useByScannerDiscovery="false" value="a" valueType="string"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan.48670915" name="Warn if mapping between an input section and an output section is missing (-Wl,--warn-orphan)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.1136764437" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,-n"/>
+                                    								
+                                </option>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.archiver.1812993504" name="TriCore Archiver" superClass="com.rt.hightec.buildsystem.tricore.new.archiver"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.1191907587.1394530875">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.1191907587.1394530875" moduleId="org.eclipse.cdt.core.settings" name="iROM">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.1191907587.1394530875" name="iROM" parent="com.rt.hightec.buildsystem.tricore.new.configuration.excutable">
+                    					
+                    <folderInfo id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.1191907587.1394530875." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable.1635427543" name="TriCore Toolchain" superClass="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable">
+                            							
+                            <option id="com.rt.hightec.buildsystem.tricore.new.mcpu.811763127" name="CPU type (-mcpu=&lt;value&gt;)" superClass="com.rt.hightec.buildsystem.tricore.new.mcpu" value="com.rt.hightec.buildsystem.tricore.enumeratedOptionValue1" valueType="enumerated"/>
+                            							
+                            <targetPlatform archList="TriCore" binaryParser="org.eclipse.cdt.core.ELF" id="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform.513955836" isAbstract="false" superClass="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/Bifaces_uart}/debug" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder.1406201315" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder"/>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.compiler.cpp.211721534" name="TriCore C++ Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.cpp">
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.227969443" name="Debug Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.3" valueType="enumerated"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization.635432486" name="Optimization Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.code.optimization.none" valueType="enumerated"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnocommon.1702230807" name="Issue an error if same variable is declared twice (-fno-common)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnocommon" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums.1089150389" name="Do not allocate to an enum type only as many bytes as it needs (-fno-short-enums)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.output.pipe.756700387" name="Do not generate temporary assembler files (-pipe)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.output.pipe" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.FShortDouble.697284654" name="Treat double as float (-fshort-double)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.FShortDouble" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.mversioninfo.1570193905" name="Generate version info (-mversion-info)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.mversioninfo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wall.1849001750" name="All Warnings (-Wall)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wall" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wextra.2022307027" name="Enable extra warning flags that are not enabled by -Wall. (-Wextra)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wextra" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.cast.align.1845368001" name="Warn whenever a pointer is cast such that the required alignment of the target is increased. (-Wcast-align)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.cast.align" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.unsignedbitfields.1711630773" name="Bit-fields are used as unsigned (-funsigned-bitfields)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.unsignedbitfields" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.ffuncsec.1201663536" name="Generate a section for each function (-ffunction-sections)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.ffuncsec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.fdatasec.201942394" name="Generate a section for each data object (-fdata-sections)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.fdatasec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.miscellaneous.options.431252152" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="-fomit-frame-pointer"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-ffreestanding"/>
+                                    								
+                                </option>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.compiler.c.1044680831" name="TriCore C Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.c">
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.228003694" name="Debug Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.3" valueType="enumerated"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization.1301862222" name="Optimization Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.code.optimization.speed" valueType="enumerated"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnocommon.2017502481" name="Issue an error if same variable is declared twice (-fno-common)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnocommon" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums.1369566466" name="Do not allocate to an enum type only as many bytes as it needs (-fno-short-enums)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.output.pipe.768380700" name="Do not generate temporary assembler files (-pipe)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.output.pipe" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.FShortDouble.1662313309" name="Treat double as float (-fshort-double)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.FShortDouble" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.mversioninfo.1995340711" name="Generate version info (-mversion-info)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.mversioninfo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wall.2062003249" name="All Warnings (-Wall)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wall" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wextra.1834223506" name="Enable extra warning flags that are not enabled by -Wall. (-Wextra)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.wextra" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.cast.align.1726586008" name="Warn whenever a pointer is cast such that the required alignment of the target is increased. (-Wcast-align)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.warnings.cast.align" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.unsignedbitfields.531305981" name="Bit-fields are used as unsigned (-funsigned-bitfields)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.unsignedbitfields" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.ffuncsec.948608851" name="Generate a section for each function (-ffunction-sections)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.ffuncsec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.fdatasec.312224514" name="Generate a section for each data object (-fdata-sections)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.CodeGeneration.fdatasec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.miscellaneous.options.888678057" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="-fomit-frame-pointer"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-fstrict-volatile-bitfields"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-ffreestanding"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths.464872690" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/AppSw}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/AppSw/ASCLIN}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/AppSw/Config}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/AppSw/Config/Common}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/AppSw/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/AppSw/Tricore/Main}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/_Build}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/_Impl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/_Lib}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/_Lib/DataHandling}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/_Lib/InternalMux}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/_PinMap}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Asclin}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Asclin/Asc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Asclin/Lin}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Asclin/Spi}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Asclin/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Ccu6}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Ccu6/Icu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Ccu6/PwmBc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Ccu6/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Ccu6/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Ccu6/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Ccu6/TimerWithTrigger}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Ccu6/TPwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Cif}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Cif/Cam}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Cif/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Cpu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Cpu/CStart}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Cpu/Irq}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Cpu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Cpu/Trap}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Dma}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Dma/Dma}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Dma/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Dsadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Dsadc/Dsadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Dsadc/Rdc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Dsadc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Dts}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Dts/Dts}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Dts/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Emem}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Emem/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Eray}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Eray/Eray}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Eray/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Eth}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Eth/Phy_Pef7071}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Eth/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Fce}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Fce/Crc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Fce/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Flash}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Flash/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gpt12}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gpt12/IncrEnc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gpt12/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Atom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Atom/Pwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Atom/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Atom/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Tim}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Tim/In}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Tom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Tom/Pwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Tom/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Tom/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Gtm/Trig}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Hssl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Hssl/Hssl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Hssl/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/I2c}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/I2c/I2c}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/I2c/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Iom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Iom/Driver}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Iom/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Msc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Msc/Msc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Msc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Mtu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Mtu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Multican}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Multican/Can}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Multican/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Port}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Port/Io}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Port/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Psi5}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Psi5/Psi5}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Psi5/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Psi5s}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Psi5s/Psi5s}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Psi5s/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Qspi}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Qspi/SpiMaster}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Qspi/SpiSlave}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Qspi/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Scu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Scu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Sent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Sent/Sent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Sent/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Smu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Smu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Src/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Stm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Stm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Stm/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Vadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Vadc/Adc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/iLLD/TC27D/Tricore/Vadc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Infra}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Infra/Platform}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Infra/Platform/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Infra/Platform/Tricore/Compilers}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Infra/Sfr}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Infra/Sfr/TC27D}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Infra/Sfr/TC27D/_Reg}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service/CpuGeneric}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service/CpuGeneric/_Utilities}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service/CpuGeneric/If}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service/CpuGeneric/If/Ccu6If}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service/CpuGeneric/StdIf}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service/CpuGeneric/SysSe}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service/CpuGeneric/SysSe/Bsp}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service/CpuGeneric/SysSe/Comm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service/CpuGeneric/SysSe/General}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service/CpuGeneric/SysSe/Math}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/BaseSw/Service/CpuGeneric/SysSe/Time}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.language.standard.1870445344" name="C Standard (-std)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.language.standard" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.language.standard.c99" valueType="enumerated"/>
+                                								
+                                <inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.356728185" name="Compiler Input (C)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.assembler.2086268474" name="TriCore Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler">
+                                								
+                                <option id="com.rt.hightec.buildsystem.tricore.new.assembler.optimization.insn.730407364" name="Exclusively emit 32-bit opcodes insn" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.optimization.insn" useByScannerDiscovery="false" value="com.rt.hightec.buildsystem.tricore.new.assembler.optimization.insn.preferred" valueType="enumerated"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.debug.option.44049599" name="Debug Mode" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.debug.option" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.debug.option.gdwarf2" valueType="enumerated"/>
+                                								
+                                <inputType id="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype.910630714" name="Assembler Input NO GUI" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.assembler.gtm.1420444043" name="TriCore GTM Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.gtm">
+                                								
+                                <inputType id="gtm.input.1116041270" name="Assembler Input (mcs)" superClass="gtm.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.linker.c.1702693422" name="TriCore C Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.c">
+                                								
+                                <option id="com.rt.hightec.buildsystem.tricore.linker.c.Optimization.rmUnrefSec.236871828" name="Remove unreferenced sections (-Wl,--gc-sections)" superClass="com.rt.hightec.buildsystem.tricore.linker.c.Optimization.rmUnrefSec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="abstract.tool.linker.warnings.no.warn.flags.488120602" name="Do not warn about incompatible section flags (-Wl,--no-warn-flags)" superClass="abstract.tool.linker.warnings.no.warn.flags" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.outputopt.crossref.1666620343" name="Include cross references info (-Wl,--cref)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.outputopt.crossref" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.buildsystem.tricore.new.linker.c.ext.map.file.1281087238" name="Generate extended map file (-Wl,--extmap=)" superClass="com.rt.hightec.buildsystem.tricore.new.linker.c.ext.map.file" useByScannerDiscovery="false" value="a" valueType="string"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan.45587776" name="Warn if mapping between an input section and an output section is missing (-Wl,--warn-orphan)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.164306740" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,-n"/>
+                                    								
+                                </option>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles.1341329315" name="Skip standard system startup files when linking (-nostartfiles)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file.1745665127" name="Browse Linker Description File (-T)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file" useByScannerDiscovery="false" value="&quot;${ProjDirPath}/Lcf_Gnuc_Tricore_Tc.x&quot;" valueType="string"/>
+                                								
+                                <inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input.2012037541" name="Abstract Linker Input NO GUI" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(ASM)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.linker.cpp.182131937" name="TriCore C++ Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.cpp">
+                                								
+                                <option id="com.rt.hightec.buildsystem.tricore.linker.cpp.Optimization.rmUnrefSec.311545565" name="Remove unreferenced sections (-Wl,--gc-sections)" superClass="com.rt.hightec.buildsystem.tricore.linker.cpp.Optimization.rmUnrefSec" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="abstract.tool.linker.warnings.no.warn.flags.1282983111" name="Do not warn about incompatible section flags (-Wl,--no-warn-flags)" superClass="abstract.tool.linker.warnings.no.warn.flags" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.outputopt.crossref.1263355628" name="Include cross references info (-Wl,--cref)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.outputopt.crossref" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="com.rt.hightec.buildsystem.tricore.new.linker.cpp.ext.map.file.1023787354" name="Generate extended map file (-Wl,--extmap=)" superClass="com.rt.hightec.buildsystem.tricore.new.linker.cpp.ext.map.file" useByScannerDiscovery="false" value="a" valueType="string"/>
+                                								
+                                <option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan.457444777" name="Warn if mapping between an input section and an output section is missing (-Wl,--warn-orphan)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.1941335849" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,-n"/>
+                                    								
+                                </option>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.rt.hightec.buildsystem.tricore.new.archiver.42826786" name="TriCore Archiver" superClass="com.rt.hightec.buildsystem.tricore.new.archiver"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="Bifaces_uart.com.rt.hightec.buildsystem.tricore.new.projectType.1046923482" name="TriCore Project" projectType="com.rt.hightec.buildsystem.tricore.new.projectType"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="refreshScope" versionNumber="2">
+        		
+        <configuration configurationName="debug">
+            			
+            <resource resourceType="PROJECT" workspacePath="/Bifaces_uart"/>
+            		
+        </configuration>
+        	
+    </storageModule>
+    
+</cproject>
